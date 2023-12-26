@@ -1,0 +1,26 @@
+.card>.name{
+    /* background-color: chocolate; */
+    margin: auto;
+    padding: 16px 10px;
+}
+.team{
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+}
+.final-year{
+    display: flex;
+    flex-direction: column;
+}
+.third-year{
+    display: flex;
+    flex-direction: column;
+}
+span{
+    margin: 35px;
+    background-color: coral;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+}

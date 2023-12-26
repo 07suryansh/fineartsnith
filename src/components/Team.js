@@ -1,15 +1,35 @@
-import React from 'react'
-import Card from './Card'
-import img from './assets/img.jpeg'
-
+import React from "react";
+import Card from "./Card";
+import img from "./assets/img.jpeg";
+import './team.css'
 
 export default function Team() {
   return (
     <>
       <div className="team">
-        <h4>Final Year</h4>
-        <Card name="Suryansh Singh Bisen" imgurl={img}/>
+        <div className="final-year">
+          <span>Final Year</span>
+          <div className="images">
+          <Card name="Suryansh Singh Bisen" imgurl={img} />
+          <Card name="Suryansh Singh Bisen" imgurl={img} />
+          <Card name="Suryansh Singh Bisen" imgurl={img} />
+          <Card name="Suryansh Singh Bisen" imgurl={img} />
+          <Card name="Suryansh Singh Bisen" imgurl={img} />
+          </div>
+          
+        </div>
+        <div className="third-year">
+          <span>Third Year</span>
+          <div className="images">
+          <Card name="Suryansh Singh Bisen" imgurl={img} />
+          <Card name="Suryansh Singh Bisen" imgurl={img} />
+          <Card name="Suryansh Singh Bisen" imgurl={img} />
+          <Card name="Suryansh Singh Bisen" imgurl={img} />
+          <Card name="Suryansh Singh Bisen" imgurl={img} />
+          </div>
+          
+        </div>
       </div>
     </>
-  )
+  );
 }
