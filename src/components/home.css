@@ -1,0 +1,24 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.home>h1{
+    text-align: center;
+    font-size: 90px;
+    color: #495057;
+}
+.home>p{
+    margin: 0;
+    width: 80%;
+    text-align: center;
+    text-align: justify;
+}
+.home>h3{
+    font-size: 30px;
+    font-family: serif;
+    align-self: flex-start;
+    margin-left: 10%;
+    color: #495057;
+}

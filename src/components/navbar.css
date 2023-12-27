@@ -6,18 +6,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #F2FFE9;
-  color: #3a5a40; 
+  background-color: #e9ecef;
+  color: #495057; 
   padding: 10px 20px;
   z-index: 1000; 
 }
 .left-navbar{
     width: 70%;
     /* background-color: chartreuse; */
-    font-weight: 500;
+    font-weight: bold;
     font-size: 30px;
     cursor: pointer;
-    font-family: 'Marcellus','poppins';
+  font-family: 'poppins',sans-serif;
 }
 .right-navbar{
     width: 30%;
@@ -25,17 +25,19 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 0px 80px;
     /* background-color: blueviolet; */
 }
 a {
     transition: transform 0.3s; 
     text-decoration: none;
-    color:#3a5a40;
+    color:#495057;
   }
   
   a:hover {
     transform: scale(1.1); 
+    font-weight: 600;
   }
   
   a:not(:hover) {
