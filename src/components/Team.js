@@ -8,9 +8,8 @@ export default function Team() {
     <>
       <div className="team">
         <div className="final-year">
-          <span>Final Year</span>
+          <h3>Final Year</h3>
           <div className="images">
-          <Card name="Suryansh Singh Bisen" imgurl={img} />
           <Card name="Suryansh Singh Bisen" imgurl={img} />
           <Card name="Suryansh Singh Bisen" imgurl={img} />
           <Card name="Suryansh Singh Bisen" imgurl={img} />
@@ -19,9 +18,8 @@ export default function Team() {
           
         </div>
         <div className="third-year">
-          <span>Third Year</span>
+          <h3>Third Year</h3>
           <div className="images">
-          <Card name="Suryansh Singh Bisen" imgurl={img} />
           <Card name="Suryansh Singh Bisen" imgurl={img} />
           <Card name="Suryansh Singh Bisen" imgurl={img} />
           <Card name="Suryansh Singh Bisen" imgurl={img} />

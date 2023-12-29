@@ -6,7 +6,13 @@
 .team{
     display: flex;
     flex-direction: column;
-    background-color: blueviolet;
+    background-color: #d9dce0;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: -60px;
+    margin-right: -60px;
+    padding: 60px;
+    border-radius: 20px;
 }
 .final-year{
     display: flex;
@@ -16,9 +22,12 @@
     display: flex;
     flex-direction: column;
 }
-span{
-    margin: 35px;
-    background-color: coral;
+h3{
+    font-size: 30px;
+    font-family: serif;
+    align-self: flex-start;
+    color: #495057;
+    /* background-color: coral; */
 }
 .images{
     display: flex;

@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    padding: 0 10%;
 }
 .home>h1{
     text-align: center;
@@ -11,7 +12,7 @@
 }
 .home>p{
     margin: 0;
-    width: 80%;
+    width: 100%;
     text-align: center;
     text-align: justify;
 }
@@ -19,6 +20,5 @@
     font-size: 30px;
     font-family: serif;
     align-self: flex-start;
-    margin-left: 10%;
     color: #495057;
 }
