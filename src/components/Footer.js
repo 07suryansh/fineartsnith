@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="footer-info">
         <img src={logo} alt="" className="logo" />
         <div className="social">
-          <span>Social</span>
+          <span className="social-heading">Social</span>
           <div className="icons">
             <FaInstagram />
             <span> Instagram</span>
