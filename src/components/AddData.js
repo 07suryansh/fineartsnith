@@ -8,7 +8,7 @@ export default function AddData() {
         <form action="" method="post">
           <input type="text" name="" id="" placeholder="Enter img URL"/>
           <input type="text" name="" id="" placeholder="Enter name"/>
-          <input type="text" name="" id="" placeholder="Enter year"/>
+          <input type="text" name="" id="" placeholder="Enter key word"/>
           <button type="submit">Add Data</button>
         </form>
       </div>

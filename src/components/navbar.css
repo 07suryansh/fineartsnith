@@ -28,6 +28,7 @@
     align-items: center;
     justify-content: space-around;
     padding: 0px 80px;
+    font-weight: 300;
     /* background-color: blueviolet; */
 }
 a {
@@ -44,4 +45,7 @@ a {
   a:not(:hover) {
     transition: transform 0.3s; 
   }
-  
+  .active {
+    font-weight: 600;
+    color: black !important;
+  }
