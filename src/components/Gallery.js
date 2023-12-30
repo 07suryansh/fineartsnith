@@ -9,6 +9,7 @@ export default function Gallery() {
     <div className="heading">Gallery</div>
       <div className="gallery">
         <GalleryCard imgurl={img} name="Hill'ffair 2k22"/>
+        <GalleryCard imgurl={img} name="Hill'ffair 2k22"/>
       </div>
     </>
   )

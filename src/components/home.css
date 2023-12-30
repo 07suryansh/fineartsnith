@@ -30,3 +30,33 @@
     font-size: 40px;
     color: #495057;
 }
+
+
+@media only screen and (max-width: 600px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+    }
+    .home>h1{
+        text-align: center;
+        font-size: 40px;
+        color: #495057;
+    }
+    .home>p{
+        margin: 0;
+        width: 80%;
+        text-align: center;
+        text-align: justify;
+    }
+    .heading{
+        text-align: center;
+        /* background-color: darkorchid; */
+        padding: 10px;
+        font-family: 'DM Serif Text',serif;
+        font-size: 40px;
+        color: #495057;
+    }
+}
