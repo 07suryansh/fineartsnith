@@ -9,6 +9,7 @@ export default function Footer() {
     <div className="footer">
       <div className="footer-info">
         <img src={logo} alt="" className="logo" />
+        {/* <p>National Institute of Technology Hamirpur</p> */}
         <div className="social">
           <span className="social-heading">Social</span>
           <div className="icons">
