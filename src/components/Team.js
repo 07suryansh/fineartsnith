@@ -6,6 +6,7 @@ import './team.css'
 export default function Team() {
   return (
     <>
+    <div className="heading">Team</div>
       <div className="team">
         <div className="final-year">
           <h3>Final Year</h3>

@@ -6,6 +6,7 @@ import './contributions.css'
 export default function Contributions() {
   return (
     <>
+    <div className="heading">Contributions</div>
       <div className="contributions">
         <ContributionCard imgurl={img} name="Narendra Modi" type="pencil"/>
         <ContributionCard imgurl={img} name="Narendra Modi" type="pencil"/>

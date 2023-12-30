@@ -12,19 +12,39 @@ export default function Footer() {
         {/* <p>National Institute of Technology Hamirpur</p> */}
         <div className="social">
           <span className="social-heading">Social</span>
-          <div className="icons">
+          <div className="icons" onClick={() => {
+                window.open(
+                  "https://www.instagram.com/fineartsnith/",
+                  "_blank"
+                );
+              }}>
             <FaInstagram />
             <span> Instagram</span>
           </div>
-          <div className="icons">
+          <div className="icons" onClick={() => {
+                window.open(
+                  "https://www.facebook.com/FineArtsClubNitHamirpur/",
+                  "_blank"
+                );
+              }}>
           <FaFacebook />
             <span> Facebook</span>
           </div>
-          <div className="icons">
+          <div className="icons" onClick={() => {
+                window.open(
+                  "https://www.facebook.com/FineArtsClubNitHamirpur/",
+                  "_blank"
+                );
+              }}>
           <FaXTwitter />
             <span> Twitter</span>
           </div>
-          <div className="icons">
+          <div className="icons" onClick={() => {
+                window.open(
+                  "https://www.linkedin.com/company/fineartsnith/",
+                  "_blank"
+                );
+              }}>
             <FaLinkedin />
             <span> LinkedIn</span>
           </div>
