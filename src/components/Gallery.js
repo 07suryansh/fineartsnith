@@ -1,9 +1,8 @@
 import React,{ useState, useEffect } from 'react'
 import './gallery.css'
 import GalleryCard from './GalleryCard'
-import img from './assets/img.jpeg'
-import ContributionCard from "./ContributionCard";
 import axios from "axios";
+import logo from './assets/logo.png'
 
 export default function Gallery() {
 
@@ -29,7 +28,11 @@ export default function Gallery() {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return (
+      <div className="loading-screen">
+        <img src={logo} alt="Loading logo" />
+      </div>
+    );
   }
 
   if (error) {

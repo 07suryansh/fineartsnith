@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Card from "./Card";
-import img from "./assets/img.jpeg";
 import "./team.css";
 import axios from "axios";
+import logo from './assets/logo.png'
 
 export default function Team() {
   const [data, setData] = useState(null);
@@ -26,7 +26,11 @@ export default function Team() {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return (
+      <div className="loading-screen">
+        <img src={logo} alt="Loading logo" />
+      </div>
+    );
   }
 
   if (error) {

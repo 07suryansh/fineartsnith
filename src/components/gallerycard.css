@@ -22,3 +22,8 @@
 .gallery-img:not(:hover){
     transition: transform 0.3s;
 }
+@media only screen and (max-width: 600px){
+    .gallery-card{
+        width: 100%;
+    }
+}

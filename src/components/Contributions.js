@@ -1,14 +1,15 @@
 import React,{ useState, useEffect } from "react";
 import ContributionCard from "./ContributionCard";
-import img from "./assets/img.jpeg";
 import './contributions.css'
 import axios from "axios";
+import logo from './assets/logo.png'
 
 export default function Contributions() {
 
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+
 
   const apiUrl = "https://fineartsnith-backend.vercel.app/";
 
@@ -27,7 +28,11 @@ export default function Contributions() {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return (
+      <div className="loading-screen">
+        <img src={logo} alt="Loading logo" />
+      </div>
+    );
   }
 
   if (error) {

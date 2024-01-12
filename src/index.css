@@ -17,3 +17,24 @@ code {
     monospace;
     font-family: 'poppins';
 }
+/* Add these styles to your CSS */
+.loading-screen {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8); /* Optional: Add a semi-transparent background */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  margin-top: -40px;
+}
+
+.loading-screen img {
+  width: 100px; /* Adjust the width of your logo as needed */
+  height: 100px; /* Maintain aspect ratio */
+}
+

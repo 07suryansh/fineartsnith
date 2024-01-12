@@ -1,8 +1,7 @@
 import React,{ useState, useEffect } from 'react'
 import './home.css'
-import Card from './Card'
-import img from './assets/img.jpeg'
 import axios from "axios";
+import logo from './assets/logo.png'
 
 export default function Home() {
 
@@ -27,7 +26,11 @@ export default function Home() {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return (
+      <div className="loading-screen">
+        <img src={logo} alt="Loading logo" />
+      </div>
+    );
   }
 
   if (error) {
@@ -38,7 +41,7 @@ export default function Home() {
     <>
       <div className="home">
         <h1>Welcome</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Step into the vibrant world of our Fine Arts Club at <b>National Institute of Technology Hamirpur</b>, where creativity flourishes and artistic expression takes center stage. Within our gallery, discover the incredible talents of our student artists who weave visual stories with passion and flair. From vivid canvases that burst with youthful energy to sculptures that embody the innovative spirit of our community, our collection reflects the diverse and dynamic artistry that thrives within our college walls. Join us in celebrating the extraordinary talents that shape our artistic landscape. Our Fine Arts Club is a collaborative space where students, each a brushstroke in the canvas of our community, explore their creative boundaries and showcase the beauty that resides in every piece. Immerse yourself in the world of colors, shapes, and emotions as we invite you to be a part of our creative journey. Welcome to the heart of artistic expression at <b>National Institute of Technology Hamirpur</b>, where the gallery echoes with the enthusiasm of emerging artists, and every masterpiece tells a story unique to our college community.</p>
         <div className="display-image">
           <img src="" alt="" />
           {data.map((item) =>

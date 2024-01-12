@@ -36,3 +36,44 @@ h3{
     justify-content: center;
     grid-gap: 10px;
 }
+
+@media only screen and (max-width: 600px){
+    .card>.name{
+        /* background-color: chocolate; */
+        margin: auto;
+        /* padding: 16px 10px; */
+    }
+    .team{
+        display: flex;
+        flex-direction: column;
+        background-color: #d9dce0;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: 8px;
+        margin-right: 8px;
+        padding: 8px 12px;
+        border-radius: 20px;
+    }
+    /* .final-year{
+        display: flex;
+        flex-direction: column;
+    } */
+    .third-year{
+        display: flex;
+        flex-direction: column;
+    }
+    h3{
+        font-size: 30px;
+        font-family: serif;
+        align-self: flex-start;
+        color: #495057;
+        /* background-color: coral; */
+    }
+    .images{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        /* align-items: center; */
+        justify-content: center;
+        grid-gap: 10px;
+    }
+}

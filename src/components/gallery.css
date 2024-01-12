@@ -12,14 +12,14 @@
 
 @media only screen and (max-width: 600px){
     .gallery{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
         background-color: #d9dce0;
         margin: auto;
-        margin-bottom: 40px;
-        padding: 40px 10px;
+        margin-bottom: 8px;
+        padding: 8px 8px;
         border-radius: 10px;
-        width: 80%;
+        width: 90%;
         gap: 20px;
     }
     
