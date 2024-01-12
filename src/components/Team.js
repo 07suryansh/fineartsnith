@@ -9,7 +9,7 @@ export default function Team() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const apiUrl = "http://localhost:3000/";
+  const apiUrl = "https://fineartsnith-backend.vercel.app/";
 
   useEffect(() => {
     // Fetch data from the API using Axios

@@ -1,6 +1,6 @@
 .contributions{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
     background-color: #d9dce0;
     margin-top: 20px;
     margin-bottom: 60px;
@@ -8,5 +8,4 @@
     margin-right: 60px;
     padding: 60px 40px;
     border-radius: 20px;
-    width: 80%;
 }

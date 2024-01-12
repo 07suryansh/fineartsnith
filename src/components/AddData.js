@@ -12,7 +12,7 @@ export default function AddData() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:3000", { 
+      const response = await fetch("https://fineartsnith-backend.vercel.app/", { 
         method: "POST",
         headers: {
           "Content-Type": "application/json",
