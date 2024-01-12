@@ -30,11 +30,14 @@ h3{
     /* background-color: coral; */
 }
 .images{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);  */
     /* align-items: center; */
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     grid-gap: 10px;
+    flex-wrap: wrap;
 }
 
 @media only screen and (max-width: 600px){
@@ -70,10 +73,11 @@ h3{
         /* background-color: coral; */
     }
     .images{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); 
+        /* display: grid;
+        grid-template-columns: repeat(2, 1fr);  */
         /* align-items: center; */
         justify-content: center;
         grid-gap: 10px;
+        flex-wrap: wrap;
     }
 }

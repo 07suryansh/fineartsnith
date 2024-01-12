@@ -1,6 +1,8 @@
 .contributions{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);  */
+    display: flex;
+    flex-wrap: wrap;
     background-color: #d9dce0;
     margin-top: 20px;
     margin-bottom: 60px;
@@ -11,8 +13,10 @@
 }
 @media only screen and (max-width: 600px){
     .contributions{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr); 
+        /* display: grid;
+        grid-template-columns: repeat(1, 1fr);  */
+        display: flex;
+        flex-wrap: wrap;
         margin-top: 8px;
         margin-bottom: 8px;
         margin-left: 8px;
