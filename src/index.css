@@ -9,6 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'poppins',sans-serif;
   background-color: #e9ecef;
+  color: rgb(0, 0, 0);
 }
 
 code {
