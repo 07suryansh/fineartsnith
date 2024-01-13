@@ -17,11 +17,11 @@
         /* display: grid;
         grid-template-columns: repeat(1, 1fr);  */
         display: flex;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
         background-color: #d9dce0;
         margin: auto;
         margin-bottom: 8px;
-        padding: 8px 8px;
+        padding: 8px 12px;
         border-radius: 10px;
         width: 90%;
         gap: 20px;

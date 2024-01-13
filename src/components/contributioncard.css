@@ -13,9 +13,11 @@
     border-radius: 6px;
     cursor: pointer;
     margin: 20px;
+    border: 1px solid #495057;
 }
 .contribution-name,.contribution-type{
     align-self: center;
+    margin: 2px 8px;
 }
 .contribution-img:hover{
     transform: scale(1.05);
@@ -31,8 +33,12 @@
     .contribution-img{
         width: 100%;
         height: 100%;
-        border-radius: 6px;
+        border-radius: 12px;
         cursor: pointer;
         margin: 20px;
+    }
+    .contribution-name,.contribution-type{
+        align-self: center;
+        margin: 0px auto 12px auto;
     }
 }
