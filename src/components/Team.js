@@ -61,7 +61,7 @@ export default function Team() {
             )}
           </div>
         </div>
-        <div className="third-year">
+        <div className="second-year">
           <h3>Second Year</h3>
           <div className="images">
             {data.map((item) =>
@@ -71,7 +71,7 @@ export default function Team() {
             )}
           </div>
         </div>
-        <div className="third-year">
+        <div className="first-year">
           <h3>First Year</h3>
           <div className="images">
             {data.map((item) =>

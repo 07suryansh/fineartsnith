@@ -15,7 +15,7 @@
     margin: 20px;
 }
 .contribution-name,.contribution-type{
-    align-self: flex-start;
+    align-self: center;
 }
 .contribution-img:hover{
     transform: scale(1.05);

@@ -18,10 +18,10 @@
     display: flex;
     flex-direction: column;
 } */
-.third-year{
+/* .third-year{
     display: flex;
     flex-direction: column;
-}
+} */
 h3{
     font-size: 30px;
     font-family: serif;
@@ -61,16 +61,20 @@ h3{
         display: flex;
         flex-direction: column;
     } */
-    .third-year{
+    /* .third-year{
         display: flex;
         flex-direction: column;
-    }
+    } */
     h3{
         font-size: 30px;
         font-family: serif;
-        align-self: flex-start;
+        align-self: center;
+        text-align: center;
         color: #495057;
         /* background-color: coral; */
+        padding: 8px;
+        border: 2px solid #495057;
+        border-radius: 4px;
     }
     .images{
         /* display: grid;

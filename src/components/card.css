@@ -26,4 +26,10 @@
     .card{
         width: 100%;
     }
+    .card-img{
+        width: 90%;
+        height: 300px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
 }
