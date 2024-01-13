@@ -3,14 +3,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 10% 10%;
+    padding: 20px 10% 5% 10%;
 }
 .home>h1{
     text-align: center;
     font-size: 90px;
     color: #495057;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 .home>p{
