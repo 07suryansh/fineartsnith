@@ -2,7 +2,6 @@ import React,{ useState, useEffect } from 'react'
 import './home.css'
 import axios from "axios";
 import logo from './assets/logo.png'
-import Footer from './Footer';
 
 export default function Home() {
 
