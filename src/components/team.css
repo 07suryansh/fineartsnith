@@ -27,9 +27,9 @@ h3{
     font-family: serif;
     align-self: flex-start;
     color: #495057;
-    background-color: #caccce;
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 4px;
+    border: 1px solid #9d9d9d;
 }
 .images{
     /* display: grid;

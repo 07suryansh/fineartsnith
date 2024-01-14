@@ -1,6 +1,6 @@
 .card{
     width: 240px;
-    background-color: #c4c4c4;
+    /* background-color: #c4c4c4; */
     margin: auto;
     padding: auto;
     display: flex;
@@ -16,6 +16,9 @@
     height: 300px;
     border-radius: 6px;
     cursor: pointer;
+}
+.name{
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
 /* .card-img:hover{
     transform: scale(1.05);
