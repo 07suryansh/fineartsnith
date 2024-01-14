@@ -1,12 +1,15 @@
 .card{
     width: 240px;
-    /* background-color: blueviolet; */
+    background-color: #c4c4c4;
     margin: auto;
     padding: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 8px;
+    margin: 4px auto;
+    border-radius: 8px;
 }
 .card-img{
     width: 100%;
@@ -27,6 +30,7 @@
     .card{
         width: 100%;
         margin-bottom: 20px;
+        background-color: #d9dce0;
     }
     .card-img{
         width: 90%;
