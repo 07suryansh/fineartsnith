@@ -18,6 +18,7 @@
 .contribution-name,.contribution-type{
     align-self: center;
     margin: 2px 8px;
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
 .contribution-img:hover{
     transform: scale(1.05);
