@@ -24,7 +24,8 @@
 } */
 h3{
     font-size: 30px;
-    font-family: serif;
+    /* font-family: serif; */
+    font-weight: 500;
     align-self: flex-start;
     color: #495057;
     padding: 10px 20px;
@@ -70,7 +71,6 @@ h3{
     } */
     h3{
         font-size: 30px;
-        font-family: serif;
         align-self: center;
         text-align: center;
         color: #495057;

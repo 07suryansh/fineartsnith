@@ -29,7 +29,7 @@
     text-align: center;
     /* background-color: darkorchid; */
     padding: 10px;
-    font-family: 'DM Serif Text',serif;
+    /* font-family: 'DM Serif Text',serif; */
     font-size: 40px;
     color: #495057;
 }
@@ -69,7 +69,7 @@
     .heading{
         text-align: center;
         padding: 10px;
-        font-family: 'DM Serif Text',serif;
+        /* font-family: 'DM Serif Text',serif; */
         font-size: 40px;
         color: #495057;
     }
