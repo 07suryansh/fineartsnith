@@ -14,7 +14,6 @@
     border-radius: 6px;
     cursor: pointer;
     margin: 10px;
-    border: 1px solid #495057;
 }
 .gallery-img:hover{
     transform: scale(1.05);
